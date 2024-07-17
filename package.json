@@ -7,6 +7,11 @@
 		"prepare": "husky",
 		"commitlint": "commitlint --edit"
 	},
+    "commitlint": {
+     "extends": [
+    "@commitlint/config-conventional"
+   ]
+},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",

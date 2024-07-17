@@ -1,0 +1,4 @@
+echo '*** Pre push **** '
+git pull origin main
+echo 'Done'
+echo '***_______**** '

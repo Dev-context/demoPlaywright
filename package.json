@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
+        "local:test":"npx playwright test --headed --project=chromium",
 		"biome:lint": "npx @biomejs/biome format --write .",
 		"prepare": "husky",
 		"commitlint": "commitlint --edit"

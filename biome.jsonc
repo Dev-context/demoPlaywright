@@ -4,7 +4,7 @@
 		"enabled": true
 	},
 	"files": {
-		"include": ["{*.ts,*.js}"],
+		"include": ["{*.ts,*.js,*.json}"],
 		"ignore": ["commitlint.config.js"]
 	},
 	"linter": {

@@ -1,0 +1,12 @@
+{
+"navbar_li_home":"li:has-text('Home')",
+"navbar_li_register":"li:has-text('Register')",
+"navbar_li_webtable":"li:has-text('WebTable')",
+"navbar_li_opc_switchto":"li:has-text('SwitchTo')",
+"navbar_li_opc_widgets":"li:has-text('Widgets')",
+"navbar_li_opc_interactions":"li:has-text('Interactions')",
+"navbar_li_opc_video":"li:has-text('Video')",
+"navbar_li_opc_wysiwyg":"li:has-text('WYSIWYG')",
+"navbar_li_opc_more":"li:has-text('More')",
+"navbar_li_opc_practiseSite":"li:has-text('Practice Site')"
+}

@@ -4,7 +4,8 @@
 		"enabled": true
 	},
 	"files": {
-		"ignore": ["commitlint.config.js",".husky/**"]
+		"include": ["{.ts,js}"],
+		"ignore": ["commitlint.config.js"]
 	},
 	"linter": {
 		"enabled": true,

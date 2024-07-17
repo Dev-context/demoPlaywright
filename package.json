@@ -17,6 +17,6 @@
 		"@commitlint/config-conventional": "^19.2.2",
 		"@playwright/test": "^1.45.2",
 		"@types/node": "^20.14.11",
-		"husky": "^9.0.11"
+		"husky": "^9.1.0"
 	}
 }

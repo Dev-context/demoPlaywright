@@ -3,6 +3,9 @@
 	"organizeImports": {
 		"enabled": true
 	},
+	"files": {
+		"ignore": ["commitlint.config.js"]
+	},
 	"linter": {
 		"enabled": true,
 		"rules": {

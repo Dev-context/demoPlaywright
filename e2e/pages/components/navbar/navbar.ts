@@ -1,7 +1,8 @@
 import { Page } from "@playwright/test";
+import { INTERACTIONS,  MORE,  SWITCHTO,  VIDEO, WIDGETS, WYSIWYG} from "./subOptions";
 import elements from "./elemets.json";
 import Baseclass from "../../../suport/baseclass";
-import { INTERACTIONS,  MORE,  SWITCHTO,  VIDEO, WIDGETS, WYSIWYG} from "./subOptions";
+
 
 export default class Navbar extends Baseclass {
     private readonly home = this.page.locator(elements.navbar_li_home);

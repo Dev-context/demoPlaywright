@@ -12,9 +12,10 @@ export enum WIDGETS{
 }
 
 export enum INTERACTIONS{
-    DragandDrop="Drag and Drop",
     Selectable,
-    Resizable
+    Resizable,
+    DragandDrop="Drag and Drop",
+  
 
 
 }
@@ -33,11 +34,12 @@ export enum WYSIWYG{
 
 export enum MORE{
     Charts,
+    Loader,
+    Modals,
+    ProgressBar,
     DynamicData="Dynamic Data",
     FileDownload="File Download",
     FileUpload="File Upload",
     JQueryProgressBar="JQuery ProgressBar",
-    Loader,
-    Modals,
-    ProgressBar
+   
 }

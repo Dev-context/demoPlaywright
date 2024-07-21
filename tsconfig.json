@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@components/*": ["tests/suport/pages/components/*"],
+			"@pages/*": ["tests/suport/pages/*"],
+			"commands/*": ["tests/suport/comands/*"],
+			"fixture/*": ["tests/suport/fixtures/*"],
+			"enums/*": ["tests/suport/enums/*"]
+		},
+		"resolveJsonModule": true,
+		"esModuleInterop": true
+	}
+}

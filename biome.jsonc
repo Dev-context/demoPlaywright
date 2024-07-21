@@ -4,13 +4,23 @@
 		"enabled": true
 	},
 	"files": {
-		"include": ["{*.ts,*.js,*.json}"],
 		"ignore": ["commitlint.config.js"]
 	},
+
+	"formatter": {
+		"enabled": true,
+		"indentStyle": "tab",
+		"indentWidth": 2,
+		"lineWidth": 180
+	},
+
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true
+			"recommended": true,
+			"correctness": {
+				"noUnusedImports": "error"
+			}
 		}
 	}
 }

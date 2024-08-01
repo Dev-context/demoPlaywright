@@ -3,10 +3,11 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"local:test": "npx playwright test --headed --project=chromium",
-		"biome:lint": "npx @biomejs/biome format --write .",
+		"local:test": "npx playwright test --headed --project=chromium && npm run allure || npm run allure",
 		"bug:test": "npx playwright test --debug",
+		"allure": "npx allure serve allure-results",
 		"test:ui": "npx playwright test --ui",
+		"biome:lint": "npx @biomejs/biome format --write .",
 		"prepare": "husky",
 		"commitlint": "commitlint --edit"
 	},
@@ -23,6 +24,8 @@
 		"@commitlint/config-conventional": "^19.2.2",
 		"@playwright/test": "^1.45.2",
 		"@types/node": "^20.14.11",
+		"allure-commandline": "^2.29.0",
+		"allure-playwright": "^3.0.0-beta.7",
 		"husky": "^9.1.0"
 	}
 }

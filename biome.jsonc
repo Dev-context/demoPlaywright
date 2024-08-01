@@ -7,11 +7,13 @@
 		"ignore": ["commitlint.config.js"]
 	},
 
-	"formatter": {
-		"enabled": true,
-		"indentStyle": "tab",
-		"indentWidth": 2,
-		"lineWidth": 180
+	"javascript": {
+		"formatter": {
+			"enabled": true,
+			"quoteStyle": "double",
+			"lineWidth": 280,
+			"semicolons": "asNeeded"
+		}
 	},
 
 	"linter": {
@@ -20,6 +22,9 @@
 			"recommended": true,
 			"correctness": {
 				"noUnusedImports": "error"
+			},
+			"suspicious": {
+				"noAssignInExpressions": "off"
 			}
 		}
 	}

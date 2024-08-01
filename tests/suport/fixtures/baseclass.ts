@@ -1,7 +1,7 @@
-import type { Page } from "@playwright/test";
+import type { Page } from '@playwright/test'
 
 export default class Baseclass {
 	constructor(protected page: Page) {
-		this.page = page;
+		this.page = page
 	}
 }

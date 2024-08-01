@@ -1,0 +1,6 @@
+{
+	"email_ipt": "#email",
+	"enter_btn": "span:has(a[href='Register.html'])",
+	"signIn": "button:has-text('Sign In')",
+	"skipSignIn": "button:has-text('Skip Sign In')"
+}

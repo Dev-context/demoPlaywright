@@ -6,4 +6,10 @@ export type Register = {
   phone: string;
   gender: "FeMale" | "Male";
   hobbies: "Cricket" | "Movies" | "Hockey";
+  languages: string[];
+  skills: string;
+  country: string;
+  birth: string;
+  password: string;
+  confirm_password: string;
 };

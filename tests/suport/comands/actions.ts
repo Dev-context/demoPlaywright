@@ -37,7 +37,6 @@ export namespace Actions {
       async (el, display) => (el.style.display = display),
       display
     );
-
     return locator;
   }
 
@@ -45,3 +44,4 @@ export namespace Actions {
     await locator.selectOption(option);
   }
 }
+

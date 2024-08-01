@@ -1,0 +1,5 @@
+{
+	"main": "Index.html",
+	"login": "SignIn.html",
+	"register": "Register.html"
+}

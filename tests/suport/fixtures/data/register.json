@@ -1,0 +1,11 @@
+{
+	"success_register": {
+		"first_name": "Maria",
+		"last_name": "Silva",
+		"address": "Rua xyz teste fneifnei efniefnienfefni",
+		"email": "teste@teste.com",
+		"phone": "9999999999",
+		"gender": "Male",
+		"hobbies": "Hockey"
+	}
+}

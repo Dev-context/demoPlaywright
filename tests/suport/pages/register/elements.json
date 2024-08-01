@@ -1,5 +1,21 @@
 {
-	"register_fullName_ipt": "First Name",
-	"register_lastName_ipt": "Last Name",
-	"register_address_ipt_lbl": "Addresss"
+	"formgroup": ".form-group",
+	"fullName_ipt": "First Name",
+	"lastName_ipt": "Last Name",
+	"address_ipt_lbl": ".form-group:has(label:text-is('Address')) textarea",
+	"email_ipt": "input[type=email]",
+	"phone_ipt": "input[type=tel]",
+	"gender": ".form-group:has(label:has-text('Gender'))",
+	"hobbies": ".form-group:has(label:has-text('Hobbies'))",
+	"languages_slc": ".form-group:has(label:has-text('Languages')) multi-select",
+	"skills_slc": ".form-group:has(label:has-text('Skills')) select",
+	"country_ipt": "span.select2-dropdown input[type='search']",
+	"selected_country": "#select2-country-container",
+	"year_date_of_birth": "#yearbox",
+	"month_date_of_birth": ".form-group:has(label:has-text('Date Of Birth')) select:has-text('Month')",
+	"day_date_of_birth": "#daybox",
+	"password": "#firstpassword",
+	"password_confirm": "#secondpassword",
+	"submit": "button:has-text('Submit')",
+	"refresh": "button:has-text('Refresh')"
 }

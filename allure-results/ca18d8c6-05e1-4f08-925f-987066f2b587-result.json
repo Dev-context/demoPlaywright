@@ -1,1 +1,315 @@
-{"uuid":"ca18d8c6-05e1-4f08-925f-987066f2b587","name":"check if the fields are cleaned after click on reflesh","historyId":"52bff03e39f8136378cddd56d7118e72:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544962249,"name":"browser.newContext","stop":1722544962282}],"attachments":[],"parameters":[],"start":1722544962247,"name":"fixture: context","stop":1722544962293},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544962299,"name":"browserContext.newPage","stop":1722544963225}],"attachments":[],"parameters":[],"start":1722544962294,"name":"fixture: page","stop":1722544963225},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544963231,"name":"page.goto(/)","stop":1722544964648}],"attachments":[],"parameters":[],"start":1722544963227,"name":"fixture: page","stop":1722544964648},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544964650,"name":"fixture: registerPage","stop":1722544964651}],"attachments":[],"parameters":[],"start":1722544962232,"name":"Before Hooks","stop":1722544964651},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544964659,"name":"page.goto(Register.html)","stop":1722544966454},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544966459,"name":"locator.click(button:has-text('Refresh'))","stop":1722544967832},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544967838,"name":"expect.toBeEmpty","stop":1722544968086},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544968088,"name":"expect.toBeEmpty","stop":1722544968137},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544968140,"name":"expect.toBeEmpty","stop":1722544968175},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544968178,"name":"expect.toBeEmpty","stop":1722544968209},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544968215,"name":"page.screenshot","stop":1722544968392},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544968399,"name":"fixture: registerPage","stop":1722544968400},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544968401,"name":"fixture: page","stop":1722544968401},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544968402,"name":"fixture: page","stop":1722544968403},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544968404,"name":"fixture: context","stop":1722544968404},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722544969411,"name":"video.saveAs","stop":1722544969413},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"be842dc1-1cdc-40bd-ac16-9dcffbecad54-attachment.png","type":"image/png"}],"parameters":[],"start":1722544969642,"name":"screenshot","stop":1722544969642},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"e3c4f1d1-db63-4a82-9f10-db61d1a042d4-attachment.webm","type":"video/webm"}],"parameters":[],"start":1722544969644,"name":"video","stop":1722544969644}],"attachments":[],"parameters":[],"start":1722544968210,"name":"After Hooks","stop":1722544969417},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"trace","source":"0a73ab88-5a77-4f26-94c1-52345769319d-attachment.zip","type":"application/zip"}],"parameters":[],"start":1722544969646,"name":"trace","stop":1722544969646}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"JavaScript"},{"name":"framework","value":"Playwright"},{"name":"titlePath","value":" > chromium > register.spec.ts > Testes na Pagina de Registros"},{"name":"package","value":"register.spec.ts"},{"name":"host","value":"DESKTOP-EG09TKL"},{"name":"thread","value":"DESKTOP-EG09TKL-5808-playwright-worker-0"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"register.spec.ts"},{"name":"subSuite","value":"Testes na Pagina de Registros"}],"links":[],"start":1722544962279,"testCaseId":"52bff03e39f8136378cddd56d7118e72","fullName":"register.spec.ts:36:7","stop":1722544969442}
+{
+	"uuid": "ca18d8c6-05e1-4f08-925f-987066f2b587",
+	"name": "check if the fields are cleaned after click on reflesh",
+	"historyId": "52bff03e39f8136378cddd56d7118e72:5bd835b0d6b1d4ada3b9f0db936e82c8",
+	"status": "passed",
+	"statusDetails": {},
+	"stage": "finished",
+	"steps": [
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722544962249,
+							"name": "browser.newContext",
+							"stop": 1722544962282
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722544962247,
+					"name": "fixture: context",
+					"stop": 1722544962293
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722544962299,
+							"name": "browserContext.newPage",
+							"stop": 1722544963225
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722544962294,
+					"name": "fixture: page",
+					"stop": 1722544963225
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722544963231,
+							"name": "page.goto(/)",
+							"stop": 1722544964648
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722544963227,
+					"name": "fixture: page",
+					"stop": 1722544964648
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722544964650,
+					"name": "fixture: registerPage",
+					"stop": 1722544964651
+				}
+			],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722544962232,
+			"name": "Before Hooks",
+			"stop": 1722544964651
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722544964659,
+			"name": "page.goto(Register.html)",
+			"stop": 1722544966454
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722544966459,
+			"name": "locator.click(button:has-text('Refresh'))",
+			"stop": 1722544967832
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722544967838,
+			"name": "expect.toBeEmpty",
+			"stop": 1722544968086
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722544968088,
+			"name": "expect.toBeEmpty",
+			"stop": 1722544968137
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722544968140,
+			"name": "expect.toBeEmpty",
+			"stop": 1722544968175
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722544968178,
+			"name": "expect.toBeEmpty",
+			"stop": 1722544968209
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722544968215,
+					"name": "page.screenshot",
+					"stop": 1722544968392
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722544968399,
+					"name": "fixture: registerPage",
+					"stop": 1722544968400
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722544968401,
+					"name": "fixture: page",
+					"stop": 1722544968401
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722544968402,
+					"name": "fixture: page",
+					"stop": 1722544968403
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722544968404,
+					"name": "fixture: context",
+					"stop": 1722544968404
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722544969411,
+					"name": "video.saveAs",
+					"stop": 1722544969413
+				},
+				{
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [
+						{
+							"name": "screenshot",
+							"source": "be842dc1-1cdc-40bd-ac16-9dcffbecad54-attachment.png",
+							"type": "image/png"
+						}
+					],
+					"parameters": [],
+					"start": 1722544969642,
+					"name": "screenshot",
+					"stop": 1722544969642
+				},
+				{
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [
+						{
+							"name": "video",
+							"source": "e3c4f1d1-db63-4a82-9f10-db61d1a042d4-attachment.webm",
+							"type": "video/webm"
+						}
+					],
+					"parameters": [],
+					"start": 1722544969644,
+					"name": "video",
+					"stop": 1722544969644
+				}
+			],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722544968210,
+			"name": "After Hooks",
+			"stop": 1722544969417
+		},
+		{
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [
+				{
+					"name": "trace",
+					"source": "0a73ab88-5a77-4f26-94c1-52345769319d-attachment.zip",
+					"type": "application/zip"
+				}
+			],
+			"parameters": [],
+			"start": 1722544969646,
+			"name": "trace",
+			"stop": 1722544969646
+		}
+	],
+	"attachments": [],
+	"parameters": [{ "name": "Project", "value": "chromium" }],
+	"labels": [
+		{ "name": "language", "value": "JavaScript" },
+		{ "name": "framework", "value": "Playwright" },
+		{
+			"name": "titlePath",
+			"value": " > chromium > register.spec.ts > Testes na Pagina de Registros"
+		},
+		{ "name": "package", "value": "register.spec.ts" },
+		{ "name": "host", "value": "DESKTOP-EG09TKL" },
+		{ "name": "thread", "value": "DESKTOP-EG09TKL-5808-playwright-worker-0" },
+		{ "name": "parentSuite", "value": "chromium" },
+		{ "name": "suite", "value": "register.spec.ts" },
+		{ "name": "subSuite", "value": "Testes na Pagina de Registros" }
+	],
+	"links": [],
+	"start": 1722544962279,
+	"testCaseId": "52bff03e39f8136378cddd56d7118e72",
+	"fullName": "register.spec.ts:36:7",
+	"stop": 1722544969442
+}

@@ -1,1 +1,313 @@
-{"uuid":"cf328d92-9da0-4cf9-8b04-321d4077ab96","name":"check if field are cleand after click on reflesh","historyId":"3085ea788fc49e0f353403623f088d78:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"broken","statusDetails":{"message":"Test timeout of 30000ms exceeded.","trace":"Test timeout of 30000ms exceeded."},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722543302406,"name":"browserType.launch","stop":1722543302781}],"attachments":[],"parameters":[],"start":1722543302398,"name":"fixture: browser","stop":1722543302782},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722543302789,"name":"browser.newContext","stop":1722543302893}],"attachments":[],"parameters":[],"start":1722543302784,"name":"fixture: context","stop":1722543302912},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722543302919,"name":"browserContext.newPage","stop":1722543303394}],"attachments":[],"parameters":[],"start":1722543302914,"name":"fixture: page","stop":1722543303395},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722543303407,"name":"page.goto(/)","stop":1722543307283}],"attachments":[],"parameters":[],"start":1722543303396,"name":"fixture: page","stop":1722543307284},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722543307286,"name":"fixture: registerPage","stop":1722543307287}],"attachments":[],"parameters":[],"start":1722543302379,"name":"Before Hooks","stop":1722543307287},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('button:has-text(\\'Refresh\\')')\n","trace":"Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('button:has-text(\\'Refresh\\')')\n\n    at Object.actionClick (C:\\Users\\VINIF\\Desktop\\demoAutomation\\tests\\suport\\comands\\actions.ts:15:19)\n    at Register.performRefresh (C:\\Users\\VINIF\\Desktop\\demoAutomation\\tests\\suport\\pages\\register\\register.page.ts:113:19)\n    at C:\\Users\\VINIF\\Desktop\\demoAutomation\\tests\\e2e\\register.spec.ts:38:24"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722543332785,"name":"page.screenshot","stop":1722543332925},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722543332931,"name":"fixture: registerPage","stop":1722543332932},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722543332933,"name":"fixture: page","stop":1722543332934},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722543332934,"name":"fixture: page","stop":1722543332935},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722543332936,"name":"fixture: context","stop":1722543332937},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"ab6d27ca-7980-4e14-8065-7c87f7cd2438-attachment.png","type":"image/png"}],"parameters":[],"start":1722543333818,"name":"screenshot","stop":1722543333818}],"attachments":[],"parameters":[],"start":1722543332778,"name":"After Hooks","stop":1722543358582},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722543333202,"name":"video.saveAs","stop":1722543333205},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"46f004cb-17ec-486e-8fbb-72d9dfb96f84-attachment.webm","type":"video/webm"}],"parameters":[],"start":1722543333820,"name":"video","stop":1722543333820}],"attachments":[],"parameters":[],"start":1722543307318,"name":"locator.click(button:has-text('Refresh'))","stop":1722543307753},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722543333217,"name":"fixture: browser","stop":1722543333667}],"attachments":[],"parameters":[],"start":1722543333214,"name":"Worker Cleanup","stop":1722543333668},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"trace","source":"0de87023-9cb4-45ab-bb19-fa0367d9c782-attachment.zip","type":"application/zip"}],"parameters":[],"start":1722543333822,"name":"trace","stop":1722543333822}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"JavaScript"},{"name":"framework","value":"Playwright"},{"name":"titlePath","value":" > chromium > register.spec.ts > Testes na Pagina de Registros"},{"name":"package","value":"register.spec.ts"},{"name":"host","value":"DESKTOP-EG09TKL"},{"name":"thread","value":"DESKTOP-EG09TKL-9504-playwright-worker-1"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"register.spec.ts"},{"name":"subSuite","value":"Testes na Pagina de Registros"}],"links":[],"start":1722543302375,"testCaseId":"3085ea788fc49e0f353403623f088d78","fullName":"register.spec.ts:35:7","stop":1722543332804}
+{
+	"uuid": "cf328d92-9da0-4cf9-8b04-321d4077ab96",
+	"name": "check if field are cleand after click on reflesh",
+	"historyId": "3085ea788fc49e0f353403623f088d78:5bd835b0d6b1d4ada3b9f0db936e82c8",
+	"status": "broken",
+	"statusDetails": {
+		"message": "Test timeout of 30000ms exceeded.",
+		"trace": "Test timeout of 30000ms exceeded."
+	},
+	"stage": "finished",
+	"steps": [
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722543302406,
+							"name": "browserType.launch",
+							"stop": 1722543302781
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543302398,
+					"name": "fixture: browser",
+					"stop": 1722543302782
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722543302789,
+							"name": "browser.newContext",
+							"stop": 1722543302893
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543302784,
+					"name": "fixture: context",
+					"stop": 1722543302912
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722543302919,
+							"name": "browserContext.newPage",
+							"stop": 1722543303394
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543302914,
+					"name": "fixture: page",
+					"stop": 1722543303395
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722543303407,
+							"name": "page.goto(/)",
+							"stop": 1722543307283
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543303396,
+					"name": "fixture: page",
+					"stop": 1722543307284
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543307286,
+					"name": "fixture: registerPage",
+					"stop": 1722543307287
+				}
+			],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722543302379,
+			"name": "Before Hooks",
+			"stop": 1722543307287
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [
+				{
+					"status": "failed",
+					"statusDetails": {
+						"message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('button:has-text(\\'Refresh\\')')\n",
+						"trace": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('button:has-text(\\'Refresh\\')')\n\n    at Object.actionClick (C:\\Users\\VINIF\\Desktop\\demoAutomation\\tests\\suport\\comands\\actions.ts:15:19)\n    at Register.performRefresh (C:\\Users\\VINIF\\Desktop\\demoAutomation\\tests\\suport\\pages\\register\\register.page.ts:113:19)\n    at C:\\Users\\VINIF\\Desktop\\demoAutomation\\tests\\e2e\\register.spec.ts:38:24"
+					},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722543332785,
+							"name": "page.screenshot",
+							"stop": 1722543332925
+						},
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722543332931,
+							"name": "fixture: registerPage",
+							"stop": 1722543332932
+						},
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722543332933,
+							"name": "fixture: page",
+							"stop": 1722543332934
+						},
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722543332934,
+							"name": "fixture: page",
+							"stop": 1722543332935
+						},
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722543332936,
+							"name": "fixture: context",
+							"stop": 1722543332937
+						},
+						{
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [
+								{
+									"name": "screenshot",
+									"source": "ab6d27ca-7980-4e14-8065-7c87f7cd2438-attachment.png",
+									"type": "image/png"
+								}
+							],
+							"parameters": [],
+							"start": 1722543333818,
+							"name": "screenshot",
+							"stop": 1722543333818
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543332778,
+					"name": "After Hooks",
+					"stop": 1722543358582
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543333202,
+					"name": "video.saveAs",
+					"stop": 1722543333205
+				},
+				{
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [
+						{
+							"name": "video",
+							"source": "46f004cb-17ec-486e-8fbb-72d9dfb96f84-attachment.webm",
+							"type": "video/webm"
+						}
+					],
+					"parameters": [],
+					"start": 1722543333820,
+					"name": "video",
+					"stop": 1722543333820
+				}
+			],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722543307318,
+			"name": "locator.click(button:has-text('Refresh'))",
+			"stop": 1722543307753
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543333217,
+					"name": "fixture: browser",
+					"stop": 1722543333667
+				}
+			],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722543333214,
+			"name": "Worker Cleanup",
+			"stop": 1722543333668
+		},
+		{
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [
+				{
+					"name": "trace",
+					"source": "0de87023-9cb4-45ab-bb19-fa0367d9c782-attachment.zip",
+					"type": "application/zip"
+				}
+			],
+			"parameters": [],
+			"start": 1722543333822,
+			"name": "trace",
+			"stop": 1722543333822
+		}
+	],
+	"attachments": [],
+	"parameters": [{ "name": "Project", "value": "chromium" }],
+	"labels": [
+		{ "name": "language", "value": "JavaScript" },
+		{ "name": "framework", "value": "Playwright" },
+		{
+			"name": "titlePath",
+			"value": " > chromium > register.spec.ts > Testes na Pagina de Registros"
+		},
+		{ "name": "package", "value": "register.spec.ts" },
+		{ "name": "host", "value": "DESKTOP-EG09TKL" },
+		{ "name": "thread", "value": "DESKTOP-EG09TKL-9504-playwright-worker-1" },
+		{ "name": "parentSuite", "value": "chromium" },
+		{ "name": "suite", "value": "register.spec.ts" },
+		{ "name": "subSuite", "value": "Testes na Pagina de Registros" }
+	],
+	"links": [],
+	"start": 1722543302375,
+	"testCaseId": "3085ea788fc49e0f353403623f088d78",
+	"fullName": "register.spec.ts:35:7",
+	"stop": 1722543332804
+}

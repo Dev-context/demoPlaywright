@@ -4,16 +4,19 @@
 	"main": "index.js",
 	"scripts": {
 		"local:test": "npx playwright test --headed --project=chromium && npm run allure || npm run allure",
-		"test": "npx playwright test",
+		"test": "npx playwright test && npm run allure:generete || npm run allure:generete",
 		"bug:test": "npx playwright test --debug",
 		"allure": "npx allure serve allure-results",
+		"allure:generete": "allure generate allure-results --clean -o allure-report",
 		"test:ui": "npx playwright test --ui",
 		"biome:lint": "npx @biomejs/biome format --write .",
 		"prepare": "husky",
 		"commitlint": "commitlint --edit"
 	},
 	"commitlint": {
-		"extends": ["@commitlint/config-conventional"]
+		"extends": [
+			"@commitlint/config-conventional"
+		]
 	},
 	"keywords": [],
 	"author": "",

@@ -2,10 +2,12 @@ import { test as base } from "@playwright/test"
 import Navbar from "@components/navbar/navbar.page"
 import Register from "@pages/register/register.page"
 import Home from "@pages/home/home.page"
+import Alerts from "@pages/alerts/alerts.page"
 
 type Pages = {
 	registerPage: Register
 	home: Home
+	alerts: Alerts
 }
 
 type Components = {
@@ -27,6 +29,10 @@ export const test = base.extend<Pages & Components>({
 
 	navBar: async ({ page }, use) => {
 		await use(new Navbar(page))
+	},
+
+	alerts: async ({ page }, use) => {
+		await use(new Alerts(page))
 	},
 })
 

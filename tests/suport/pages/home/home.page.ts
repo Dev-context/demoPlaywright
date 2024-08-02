@@ -13,4 +13,9 @@ export default class Home extends Baseclass {
 	async performEnter() {
 		await Actions.actionClick(this.enter)
 	}
+
+	async signUp(email: string) {
+		await this.fillEmail(email)
+		await this.performEnter()
+	}
 }

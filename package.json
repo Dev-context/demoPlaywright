@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"scripts": {
 		"local:test": "npx playwright test --headed --project=chromium && npm run allure || npm run allure",
-		"test": "npx playwright test",
+		"test": "npx playwright test && npx allure serve allure-results || npx allure serve allure-results",
 		"bug:test": "npx playwright test --debug",
 		"allure": "npx allure serve allure-results",
 		"test:ui": "npx playwright test --ui",
@@ -13,7 +13,9 @@
 		"commitlint": "commitlint --edit"
 	},
 	"commitlint": {
-		"extends": ["@commitlint/config-conventional"]
+		"extends": [
+			"@commitlint/config-conventional"
+		]
 	},
 	"keywords": [],
 	"author": "",

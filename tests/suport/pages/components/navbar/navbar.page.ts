@@ -1,7 +1,7 @@
-import elements from '@components/navbar/elemets.json'
-import Baseclass from 'fixture/baseclass'
-import { Actions } from 'commands/actions'
-import navBarOptions from 'enums/subOptions'
+import elements from "@components/navbar/elemets.json"
+import Baseclass from "fixture/baseclass"
+import { Actions } from "commands/actions"
+import navBarOptions from "enums/subOptions"
 
 export default class Navbar extends Baseclass {
 	private readonly home = this.page.locator(elements.navbar_li_home)
@@ -33,13 +33,13 @@ export default class Navbar extends Baseclass {
 		const opt = { ...navBarOptions.switchTo }
 		switch (option) {
 			case opt.Alerts:
-				await Actions.actionClick(this.switchTo.getByText('Alerts'))
+				await Actions.actionClick(this.switchTo.getByText("Alerts"))
 				break
 			case opt.windowns:
-				await Actions.actionClick(this.switchTo.getByText('Windows'))
+				await Actions.actionClick(this.switchTo.getByText("Windows"))
 				break
 			case opt.Frames:
-				await Actions.actionClick(this.switchTo.getByText('Frames'))
+				await Actions.actionClick(this.switchTo.getByText("Frames"))
 				break
 		}
 	}
@@ -49,16 +49,16 @@ export default class Navbar extends Baseclass {
 		const opt = { ...navBarOptions.widgets }
 		switch (option) {
 			case opt.Accordion:
-				await Actions.actionClick(this.widgets.getByText('Accordion'))
+				await Actions.actionClick(this.widgets.getByText("Accordion"))
 				break
 			case opt.AutoComplete:
-				await Actions.actionClick(this.widgets.getByText('AutoComplete'))
+				await Actions.actionClick(this.widgets.getByText("AutoComplete"))
 				break
 			case opt.Datepicker:
-				await Actions.actionClick(this.widgets.getByText('Datepicker'))
+				await Actions.actionClick(this.widgets.getByText("Datepicker"))
 				break
 			case opt.Slider:
-				await Actions.actionClick(this.widgets.getByText('Slider'))
+				await Actions.actionClick(this.widgets.getByText("Slider"))
 				break
 		}
 	}
@@ -69,13 +69,13 @@ export default class Navbar extends Baseclass {
 		opt
 		switch (option) {
 			case opt.DragandDrop:
-				await Actions.actionClick(this.interactions.getByText('Drag and Drop'))
+				await Actions.actionClick(this.interactions.getByText("Drag and Drop"))
 				break
 			case opt.Selectable:
-				await Actions.actionClick(this.interactions.getByText('Selectable'))
+				await Actions.actionClick(this.interactions.getByText("Selectable"))
 				break
 			case opt.Resizable:
-				await Actions.actionClick(this.interactions.getByText('Resizable'))
+				await Actions.actionClick(this.interactions.getByText("Resizable"))
 				break
 		}
 	}
@@ -86,10 +86,10 @@ export default class Navbar extends Baseclass {
 
 		switch (option) {
 			case opt.Youtube:
-				await Actions.actionClick(this.video.getByText('Youtube'))
+				await Actions.actionClick(this.video.getByText("Youtube"))
 				break
 			case opt.Vimeo:
-				await Actions.actionClick(this.video.getByText('Vimeo'))
+				await Actions.actionClick(this.video.getByText("Vimeo"))
 				break
 		}
 	}
@@ -99,16 +99,16 @@ export default class Navbar extends Baseclass {
 		const opt = { ...navBarOptions.wysiwyg }
 		switch (option) {
 			case opt.TinyMCE:
-				await Actions.actionClick(this.wsiwyg.getByText('TinyMCE'))
+				await Actions.actionClick(this.wsiwyg.getByText("TinyMCE"))
 				break
 			case opt.CKEditor:
-				await Actions.actionClick(this.wsiwyg.getByText('CKEditor'))
+				await Actions.actionClick(this.wsiwyg.getByText("CKEditor"))
 				break
 			case opt.SummerNote:
-				await Actions.actionClick(this.wsiwyg.getByText('SummerNote'))
+				await Actions.actionClick(this.wsiwyg.getByText("SummerNote"))
 				break
 			case opt.CodeMirror:
-				await Actions.actionClick(this.wsiwyg.getByText('CodeMirror'))
+				await Actions.actionClick(this.wsiwyg.getByText("CodeMirror"))
 				break
 		}
 	}
@@ -118,28 +118,28 @@ export default class Navbar extends Baseclass {
 		const opt = { ...navBarOptions.more }
 		switch (option) {
 			case opt.Charts:
-				await Actions.actionClick(this.more.getByText('Charts'))
+				await Actions.actionClick(this.more.getByText("Charts"))
 				break
 			case opt.DynamicData:
-				await Actions.actionClick(this.more.getByText('Dynamic Data'))
+				await Actions.actionClick(this.more.getByText("Dynamic Data"))
 				break
 			case opt.FileDownload:
-				await Actions.actionClick(this.more.getByText('File Download'))
+				await Actions.actionClick(this.more.getByText("File Download"))
 				break
 			case opt.FileUpload:
-				await Actions.actionClick(this.more.getByText('File Upload'))
+				await Actions.actionClick(this.more.getByText("File Upload"))
 				break
 			case opt.JQueryProgressBar:
-				await Actions.actionClick(this.more.getByText('JQuery ProgressBar'))
+				await Actions.actionClick(this.more.getByText("JQuery ProgressBar"))
 				break
 			case opt.Loader:
-				await Actions.actionClick(this.more.getByText('Loader'))
+				await Actions.actionClick(this.more.getByText("Loader"))
 				break
 			case opt.Modals:
-				await Actions.actionClick(this.more.getByText('Modals'))
+				await Actions.actionClick(this.more.getByText("Modals"))
 				break
 			case opt.ProgressBar:
-				await Actions.actionClick(this.more.getByText('ProgressBar'))
+				await Actions.actionClick(this.more.getByText("ProgressBar"))
 				break
 		}
 	}

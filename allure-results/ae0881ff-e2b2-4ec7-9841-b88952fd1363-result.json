@@ -1,0 +1,338 @@
+{
+	"uuid": "ae0881ff-e2b2-4ec7-9841-b88952fd1363",
+	"name": "check if field are cleand after click on reflesh",
+	"historyId": "3085ea788fc49e0f353403623f088d78:5bd835b0d6b1d4ada3b9f0db936e82c8",
+	"status": "passed",
+	"statusDetails": {},
+	"stage": "finished",
+	"steps": [
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722543674559,
+							"name": "browserType.launch",
+							"stop": 1722543675055
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543674552,
+					"name": "fixture: browser",
+					"stop": 1722543675057
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722543675067,
+							"name": "browser.newContext",
+							"stop": 1722543675180
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543675060,
+					"name": "fixture: context",
+					"stop": 1722543675198
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722543675205,
+							"name": "browserContext.newPage",
+							"stop": 1722543676214
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543675200,
+					"name": "fixture: page",
+					"stop": 1722543676215
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722543676229,
+							"name": "page.goto(/)",
+							"stop": 1722543679678
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543676219,
+					"name": "fixture: page",
+					"stop": 1722543679679
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543679681,
+					"name": "fixture: registerPage",
+					"stop": 1722543679682
+				}
+			],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722543674534,
+			"name": "Before Hooks",
+			"stop": 1722543679682
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722543679692,
+			"name": "page.goto(Register.html)",
+			"stop": 1722543683145
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722543683363,
+			"name": "locator.click(button:has-text('Refresh'))",
+			"stop": 1722543686179
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722543686199,
+			"name": "expect.toBeEmpty",
+			"stop": 1722543686456
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722543686459,
+			"name": "expect.toBeEmpty",
+			"stop": 1722543687166
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722543687179,
+			"name": "expect.toBeEmpty",
+			"stop": 1722543687453
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722543687456,
+			"name": "expect.toBeEmpty",
+			"stop": 1722543687634
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543687686,
+					"name": "page.screenshot",
+					"stop": 1722543688321
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543688396,
+					"name": "fixture: registerPage",
+					"stop": 1722543688397
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543688398,
+					"name": "fixture: page",
+					"stop": 1722543688399
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543688399,
+					"name": "fixture: page",
+					"stop": 1722543688400
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543688401,
+					"name": "fixture: context",
+					"stop": 1722543688402
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722543690358,
+					"name": "video.saveAs",
+					"stop": 1722543690360
+				},
+				{
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [
+						{
+							"name": "screenshot",
+							"source": "38966252-f02d-4ad0-975d-5c6fa085557a-attachment.png",
+							"type": "image/png"
+						}
+					],
+					"parameters": [],
+					"start": 1722543691128,
+					"name": "screenshot",
+					"stop": 1722543691128
+				},
+				{
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [
+						{
+							"name": "video",
+							"source": "6e0805cd-48ee-4f8e-ad1d-e8f80aa08612-attachment.webm",
+							"type": "video/webm"
+						}
+					],
+					"parameters": [],
+					"start": 1722543691131,
+					"name": "video",
+					"stop": 1722543691131
+				}
+			],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722543687635,
+			"name": "After Hooks",
+			"stop": 1722543690365
+		},
+		{
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [
+				{
+					"name": "trace",
+					"source": "af8bec9b-1480-4b68-be51-fdfa6ac4fb15-attachment.zip",
+					"type": "application/zip"
+				}
+			],
+			"parameters": [],
+			"start": 1722543691138,
+			"name": "trace",
+			"stop": 1722543691138
+		}
+	],
+	"attachments": [],
+	"parameters": [{ "name": "Project", "value": "chromium" }],
+	"labels": [
+		{ "name": "language", "value": "JavaScript" },
+		{ "name": "framework", "value": "Playwright" },
+		{
+			"name": "titlePath",
+			"value": " > chromium > register.spec.ts > Testes na Pagina de Registros"
+		},
+		{ "name": "package", "value": "register.spec.ts" },
+		{ "name": "host", "value": "DESKTOP-EG09TKL" },
+		{ "name": "thread", "value": "DESKTOP-EG09TKL-14056-playwright-worker-1" },
+		{ "name": "parentSuite", "value": "chromium" },
+		{ "name": "suite", "value": "register.spec.ts" },
+		{ "name": "subSuite", "value": "Testes na Pagina de Registros" }
+	],
+	"links": [],
+	"start": 1722543674532,
+	"testCaseId": "3085ea788fc49e0f353403623f088d78",
+	"fullName": "register.spec.ts:36:7",
+	"stop": 1722543689832
+}

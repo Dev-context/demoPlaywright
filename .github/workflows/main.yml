@@ -1,0 +1,21 @@
+name: Playwright Tests
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  e2e-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+      - uses: microsoft/playwright-github-action@v1
+
+      - name: Install depenedences
+        run: npm install
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+      - name: Run Playwright tests
+        run: npm run test

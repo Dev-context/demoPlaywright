@@ -6,6 +6,12 @@
 		"email": "teste@teste.com",
 		"phone": "9999999999",
 		"gender": "Male",
-		"hobbies": "Hockey"
+		"hobbies": "Hockey",
+		"languages": ["Arabic"],
+		"skills": "Adobe InDesign",
+		"country": "Netherlands",
+		"birth": "2015/April/1",
+		"password": "lztoLYcGL3",
+		"confirm_password": "lztoLYcGL3"
 	}
 }

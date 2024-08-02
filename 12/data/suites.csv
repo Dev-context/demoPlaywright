@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Aug 02 19:30:42 GMT 2024","Fri Aug 02 19:30:45 GMT 2024","3605","chromium","register.spec.ts","Testes na Pagina de Registros","","","check if the fields are cleaned after click on reflesh",""
+"passed","Fri Aug 02 19:30:32 GMT 2024","Fri Aug 02 19:30:35 GMT 2024","3137","chromium","home.spec.ts","Teste on Home page","","","Login com sucesso",""
+"passed","Fri Aug 02 19:30:36 GMT 2024","Fri Aug 02 19:30:42 GMT 2024","5965","chromium","register.spec.ts","Testes na Pagina de Registros","","","Realizo o  preenchimento do formulario com sucesso",""
+"passed","Thu Aug 01 20:21:14 GMT 2024","Thu Aug 01 20:21:29 GMT 2024","15300","chromium","register.spec.ts","Testes na Pagina de Registros","","","check if field are cleand after click on reflesh",""

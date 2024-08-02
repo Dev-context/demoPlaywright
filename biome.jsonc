@@ -9,7 +9,8 @@
 			"allure-report",
 			"allure-results",
 			"playwright-report",
-			"test-results"
+			"test-results",
+			"*.json"
 		],
 		"include": ["tests/**"]
 	},

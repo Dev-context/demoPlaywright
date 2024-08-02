@@ -4,7 +4,14 @@
 		"enabled": true
 	},
 	"files": {
-		"ignore": ["commitlint.config.js"]
+		"ignore": [
+			"commitlint.config.js",
+			"allure-report",
+			"allure-results",
+			"playwright-report",
+			"test-results"
+		],
+		"include": ["tests/**"]
 	},
 
 	"javascript": {

@@ -1,0 +1,10 @@
+{
+	"alert_with_OK": "a:text-is('Alert with OK')",
+	"alert_with_OK_cancel": "a:text-is('Alert with OK & Cancel')",
+	"alert_with_textbox": "a:text-is('Alert with Textbox')",
+	"alert_box": "button:has-text('click the button to display an  alert box:')",
+	"alert_confirm_box": "button:has-text('click the button to display a confirm box')",
+	"alert_confirm_text": "#demo",
+	"alert_prompt": "button:has-text('click the button to demonstrate the prompt box')",
+	"alert_prompt_text": "#demo1"
+}

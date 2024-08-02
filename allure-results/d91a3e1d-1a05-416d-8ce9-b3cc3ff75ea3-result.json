@@ -1,1 +1,1083 @@
-{"uuid":"d91a3e1d-1a05-416d-8ce9-b3cc3ff75ea3","name":"Realizo o  preenchimento do formulario com sucesso","historyId":"dbef73054e40b10c6aac2b9ff3adf962:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624092122,"name":"browserType.launch","stop":1722624094789}],"attachments":[],"parameters":[],"start":1722624092108,"name":"fixture: browser","stop":1722624094790},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624094796,"name":"browser.newContext","stop":1722624094812}],"attachments":[],"parameters":[],"start":1722624094792,"name":"fixture: context","stop":1722624094830},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624094840,"name":"browserContext.newPage","stop":1722624095832}],"attachments":[],"parameters":[],"start":1722624094832,"name":"fixture: page","stop":1722624095833},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624095843,"name":"page.goto(/)","stop":1722624100127}],"attachments":[],"parameters":[],"start":1722624095834,"name":"fixture: page","stop":1722624100128},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624100130,"name":"fixture: registerPage","stop":1722624100131}],"attachments":[],"parameters":[],"start":1722624092086,"name":"Before Hooks","stop":1722624100132},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624100157,"name":"page.goto(Register.html)","stop":1722624102750},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624102762,"name":"locator.getByPlaceholder('First Name').fill","stop":1722624103003},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624103009,"name":"expect.toBeVisible","stop":1722624103077},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624103083,"name":"locator.getByPlaceholder('Last Name').fill","stop":1722624103159},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624103163,"name":"expect.toBeVisible","stop":1722624103204},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624103209,"name":"locator.fill(.form-group:has(label:text-is('Addres","stop":1722624103337},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624103352,"name":"expect.toBeVisible","stop":1722624103396},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624103401,"name":"locator.fill(input[type=email])","stop":1722624103463},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624103468,"name":"locator.fill(input[type=tel])","stop":1722624103570},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624103576,"name":"locator.check(.form-group:has(label:has-text('Gend","stop":1722624103696},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624103699,"name":"expect.toBeChecked","stop":1722624104181},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624104184,"name":"locator.check(.form-group:has(label:has-text('Hobb","stop":1722624104267},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624104270,"name":"expect.toBeChecked","stop":1722624104303},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624104307,"name":"locator.evaluate(.form-group:has(label:has-text('L","stop":1722624104368},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624104376,"name":"locator.all(.form-group:has(label:has-text('Langua","stop":1722624104481},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624104851,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105824},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624105463,"name":"locator.hover(.form-group:has(label:has-text('Lang","stop":1722624106440}],"attachments":[],"parameters":[],"start":1722624104845,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105826}],"attachments":[],"parameters":[],"start":1722624104837,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105817}],"attachments":[],"parameters":[],"start":1722624104831,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105815}],"attachments":[],"parameters":[],"start":1722624104825,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105810}],"attachments":[],"parameters":[],"start":1722624104813,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105758}],"attachments":[],"parameters":[],"start":1722624104809,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105756}],"attachments":[],"parameters":[],"start":1722624104802,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105746}],"attachments":[],"parameters":[],"start":1722624104797,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105744}],"attachments":[],"parameters":[],"start":1722624104791,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105740}],"attachments":[],"parameters":[],"start":1722624104785,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105733}],"attachments":[],"parameters":[],"start":1722624104780,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105724}],"attachments":[],"parameters":[],"start":1722624104776,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105722}],"attachments":[],"parameters":[],"start":1722624104768,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105719}],"attachments":[],"parameters":[],"start":1722624104762,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105713}],"attachments":[],"parameters":[],"start":1722624104755,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105706}],"attachments":[],"parameters":[],"start":1722624104747,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105696}],"attachments":[],"parameters":[],"start":1722624104741,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105693}],"attachments":[],"parameters":[],"start":1722624104733,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105688}],"attachments":[],"parameters":[],"start":1722624104712,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105678}],"attachments":[],"parameters":[],"start":1722624104679,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105615}],"attachments":[],"parameters":[],"start":1722624104675,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105602}],"attachments":[],"parameters":[],"start":1722624104669,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105598}],"attachments":[],"parameters":[],"start":1722624104662,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105592}],"attachments":[],"parameters":[],"start":1722624104651,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105587}],"attachments":[],"parameters":[],"start":1722624104643,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105581}],"attachments":[],"parameters":[],"start":1722624104637,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105579}],"attachments":[],"parameters":[],"start":1722624104618,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105563}],"attachments":[],"parameters":[],"start":1722624104608,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105558}],"attachments":[],"parameters":[],"start":1722624104595,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105551}],"attachments":[],"parameters":[],"start":1722624104588,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105546}],"attachments":[],"parameters":[],"start":1722624104583,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105544}],"attachments":[],"parameters":[],"start":1722624104578,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105541}],"attachments":[],"parameters":[],"start":1722624104568,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105533}],"attachments":[],"parameters":[],"start":1722624104563,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105533}],"attachments":[],"parameters":[],"start":1722624104517,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105482}],"attachments":[],"parameters":[],"start":1722624104511,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105478}],"attachments":[],"parameters":[],"start":1722624104507,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105476}],"attachments":[],"parameters":[],"start":1722624104498,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105467}],"attachments":[],"parameters":[],"start":1722624104493,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105464}],"attachments":[],"parameters":[],"start":1722624104487,"name":"locator.innerText(.form-group:has(label:has-text('","stop":1722624105051},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624106031,"name":"locator.click(.form-group:has(label:has-text('Lang","stop":1722624106143},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624106147,"name":"locator.evaluate(.form-group:has(label:has-text('L","stop":1722624106193},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624106205,"name":"locator.selectOption(.form-group:has(label:has-tex","stop":1722624106262}],"attachments":[],"parameters":[],"start":1722624106197,"name":"expect.toHaveCount","stop":1722624106579},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624106591,"name":"locator.click(span.select2-selection__arrow >> int","stop":1722624107316},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624107320,"name":"locator.fill(span.select2-dropdown input[type='sea","stop":1722624107481},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624107486,"name":"keyboard.press(Enter)","stop":1722624107598},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624107601,"name":"locator.selectOption(#yearbox)","stop":1722624107718},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624107722,"name":"locator.selectOption(.form-group:has(label:has-tex","stop":1722624107900},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624107907,"name":"locator.selectOption(#daybox)","stop":1722624108100},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624108105,"name":"locator.fill(#firstpassword)","stop":1722624108535},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624108539,"name":"locator.fill(#secondpassword)","stop":1722624108781},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624108785,"name":"locator.click(button:has-text('Submit'))","stop":1722624108926},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624108932,"name":"page.screenshot","stop":1722624109266},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624109293,"name":"fixture: registerPage","stop":1722624109296},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624109303,"name":"fixture: page","stop":1722624109304},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624109304,"name":"fixture: page","stop":1722624109314},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624109315,"name":"fixture: context","stop":1722624109316},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722624112278,"name":"video.saveAs","stop":1722624112281},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"10c2ed37-9333-48b3-952f-0f5680b4bfba-attachment.png","type":"image/png"}],"parameters":[],"start":1722624112869,"name":"screenshot","stop":1722624112869},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"c9c18280-fa96-480e-8b7f-819eac0c5c54-attachment.webm","type":"video/webm"}],"parameters":[],"start":1722624112871,"name":"video","stop":1722624112871}],"attachments":[],"parameters":[],"start":1722624108927,"name":"After Hooks","stop":1722624112285},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"trace","source":"ca0287fd-3bc2-4ac3-9968-e77ed10bebc4-attachment.zip","type":"application/zip"}],"parameters":[],"start":1722624112874,"name":"trace","stop":1722624112874}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"JavaScript"},{"name":"framework","value":"Playwright"},{"name":"titlePath","value":" > chromium > register.spec.ts > Testes na Pagina de Registros"},{"name":"package","value":"register.spec.ts"},{"name":"host","value":"DESKTOP-EG09TKL"},{"name":"thread","value":"DESKTOP-EG09TKL-6784-playwright-worker-1"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"register.spec.ts"},{"name":"subSuite","value":"Testes na Pagina de Registros"}],"links":[],"start":1722624092079,"testCaseId":"dbef73054e40b10c6aac2b9ff3adf962","fullName":"register.spec.ts:6:6","stop":1722624109563}
+{
+	"uuid": "d91a3e1d-1a05-416d-8ce9-b3cc3ff75ea3",
+	"name": "Realizo o  preenchimento do formulario com sucesso",
+	"historyId": "dbef73054e40b10c6aac2b9ff3adf962:5bd835b0d6b1d4ada3b9f0db936e82c8",
+	"status": "passed",
+	"statusDetails": {},
+	"stage": "finished",
+	"steps": [
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722624092122,
+							"name": "browserType.launch",
+							"stop": 1722624094789
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722624092108,
+					"name": "fixture: browser",
+					"stop": 1722624094790
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722624094796,
+							"name": "browser.newContext",
+							"stop": 1722624094812
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722624094792,
+					"name": "fixture: context",
+					"stop": 1722624094830
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722624094840,
+							"name": "browserContext.newPage",
+							"stop": 1722624095832
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722624094832,
+					"name": "fixture: page",
+					"stop": 1722624095833
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722624095843,
+							"name": "page.goto(/)",
+							"stop": 1722624100127
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722624095834,
+					"name": "fixture: page",
+					"stop": 1722624100128
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722624100130,
+					"name": "fixture: registerPage",
+					"stop": 1722624100131
+				}
+			],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624092086,
+			"name": "Before Hooks",
+			"stop": 1722624100132
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624100157,
+			"name": "page.goto(Register.html)",
+			"stop": 1722624102750
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624102762,
+			"name": "locator.getByPlaceholder('First Name').fill",
+			"stop": 1722624103003
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624103009,
+			"name": "expect.toBeVisible",
+			"stop": 1722624103077
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624103083,
+			"name": "locator.getByPlaceholder('Last Name').fill",
+			"stop": 1722624103159
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624103163,
+			"name": "expect.toBeVisible",
+			"stop": 1722624103204
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624103209,
+			"name": "locator.fill(.form-group:has(label:text-is('Addres",
+			"stop": 1722624103337
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624103352,
+			"name": "expect.toBeVisible",
+			"stop": 1722624103396
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624103401,
+			"name": "locator.fill(input[type=email])",
+			"stop": 1722624103463
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624103468,
+			"name": "locator.fill(input[type=tel])",
+			"stop": 1722624103570
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624103576,
+			"name": "locator.check(.form-group:has(label:has-text('Gend",
+			"stop": 1722624103696
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624103699,
+			"name": "expect.toBeChecked",
+			"stop": 1722624104181
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624104184,
+			"name": "locator.check(.form-group:has(label:has-text('Hobb",
+			"stop": 1722624104267
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624104270,
+			"name": "expect.toBeChecked",
+			"stop": 1722624104303
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624104307,
+			"name": "locator.evaluate(.form-group:has(label:has-text('L",
+			"stop": 1722624104368
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624104376,
+			"name": "locator.all(.form-group:has(label:has-text('Langua",
+			"stop": 1722624104481
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [
+								{
+									"status": "passed",
+									"statusDetails": {},
+									"stage": "finished",
+									"steps": [
+										{
+											"status": "passed",
+											"statusDetails": {},
+											"stage": "finished",
+											"steps": [
+												{
+													"status": "passed",
+													"statusDetails": {},
+													"stage": "finished",
+													"steps": [
+														{
+															"status": "passed",
+															"statusDetails": {},
+															"stage": "finished",
+															"steps": [
+																{
+																	"status": "passed",
+																	"statusDetails": {},
+																	"stage": "finished",
+																	"steps": [
+																		{
+																			"status": "passed",
+																			"statusDetails": {},
+																			"stage": "finished",
+																			"steps": [
+																				{
+																					"status": "passed",
+																					"statusDetails": {},
+																					"stage": "finished",
+																					"steps": [
+																						{
+																							"status": "passed",
+																							"statusDetails": {},
+																							"stage": "finished",
+																							"steps": [
+																								{
+																									"status": "passed",
+																									"statusDetails": {},
+																									"stage": "finished",
+																									"steps": [
+																										{
+																											"status": "passed",
+																											"statusDetails": {},
+																											"stage": "finished",
+																											"steps": [
+																												{
+																													"status": "passed",
+																													"statusDetails": {},
+																													"stage": "finished",
+																													"steps": [
+																														{
+																															"status": "passed",
+																															"statusDetails": {},
+																															"stage": "finished",
+																															"steps": [
+																																{
+																																	"status": "passed",
+																																	"statusDetails": {},
+																																	"stage": "finished",
+																																	"steps": [
+																																		{
+																																			"status": "passed",
+																																			"statusDetails": {},
+																																			"stage": "finished",
+																																			"steps": [
+																																				{
+																																					"status": "passed",
+																																					"statusDetails": {},
+																																					"stage": "finished",
+																																					"steps": [
+																																						{
+																																							"status": "passed",
+																																							"statusDetails": {},
+																																							"stage": "finished",
+																																							"steps": [
+																																								{
+																																									"status": "passed",
+																																									"statusDetails": {},
+																																									"stage": "finished",
+																																									"steps": [
+																																										{
+																																											"status": "passed",
+																																											"statusDetails": {},
+																																											"stage": "finished",
+																																											"steps": [
+																																												{
+																																													"status": "passed",
+																																													"statusDetails": {},
+																																													"stage": "finished",
+																																													"steps": [
+																																														{
+																																															"status": "passed",
+																																															"statusDetails": {},
+																																															"stage": "finished",
+																																															"steps": [
+																																																{
+																																																	"status": "passed",
+																																																	"statusDetails": {},
+																																																	"stage": "finished",
+																																																	"steps": [
+																																																		{
+																																																			"status": "passed",
+																																																			"statusDetails": {},
+																																																			"stage": "finished",
+																																																			"steps": [
+																																																				{
+																																																					"status": "passed",
+																																																					"statusDetails": {},
+																																																					"stage": "finished",
+																																																					"steps": [
+																																																						{
+																																																							"status": "passed",
+																																																							"statusDetails": {},
+																																																							"stage": "finished",
+																																																							"steps": [
+																																																								{
+																																																									"status": "passed",
+																																																									"statusDetails": {},
+																																																									"stage": "finished",
+																																																									"steps": [
+																																																										{
+																																																											"status": "passed",
+																																																											"statusDetails": {},
+																																																											"stage": "finished",
+																																																											"steps": [
+																																																												{
+																																																													"status": "passed",
+																																																													"statusDetails": {},
+																																																													"stage": "finished",
+																																																													"steps": [
+																																																														{
+																																																															"status": "passed",
+																																																															"statusDetails": {},
+																																																															"stage": "finished",
+																																																															"steps": [
+																																																																{
+																																																																	"status": "passed",
+																																																																	"statusDetails": {},
+																																																																	"stage": "finished",
+																																																																	"steps": [
+																																																																		{
+																																																																			"status": "passed",
+																																																																			"statusDetails": {},
+																																																																			"stage": "finished",
+																																																																			"steps": [
+																																																																				{
+																																																																					"status": "passed",
+																																																																					"statusDetails": {},
+																																																																					"stage": "finished",
+																																																																					"steps": [
+																																																																						{
+																																																																							"status": "passed",
+																																																																							"statusDetails": {},
+																																																																							"stage": "finished",
+																																																																							"steps": [
+																																																																								{
+																																																																									"status": "passed",
+																																																																									"statusDetails": {},
+																																																																									"stage": "finished",
+																																																																									"steps": [
+																																																																										{
+																																																																											"status": "passed",
+																																																																											"statusDetails": {},
+																																																																											"stage": "finished",
+																																																																											"steps": [
+																																																																												{
+																																																																													"status": "passed",
+																																																																													"statusDetails": {},
+																																																																													"stage": "finished",
+																																																																													"steps": [
+																																																																														{
+																																																																															"status": "passed",
+																																																																															"statusDetails": {},
+																																																																															"stage": "finished",
+																																																																															"steps": [
+																																																																																{
+																																																																																	"status": "passed",
+																																																																																	"statusDetails": {},
+																																																																																	"stage": "finished",
+																																																																																	"steps": [
+																																																																																		{
+																																																																																			"status": "passed",
+																																																																																			"statusDetails": {},
+																																																																																			"stage": "finished",
+																																																																																			"steps": [],
+																																																																																			"attachments": [],
+																																																																																			"parameters": [],
+																																																																																			"start": 1722624104851,
+																																																																																			"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																																																			"stop": 1722624105824
+																																																																																		},
+																																																																																		{
+																																																																																			"status": "passed",
+																																																																																			"statusDetails": {},
+																																																																																			"stage": "finished",
+																																																																																			"steps": [],
+																																																																																			"attachments": [],
+																																																																																			"parameters": [],
+																																																																																			"start": 1722624105463,
+																																																																																			"name": "locator.hover(.form-group:has(label:has-text('Lang",
+																																																																																			"stop": 1722624106440
+																																																																																		}
+																																																																																	],
+																																																																																	"attachments": [],
+																																																																																	"parameters": [],
+																																																																																	"start": 1722624104845,
+																																																																																	"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																																																	"stop": 1722624105826
+																																																																																}
+																																																																															],
+																																																																															"attachments": [],
+																																																																															"parameters": [],
+																																																																															"start": 1722624104837,
+																																																																															"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																																															"stop": 1722624105817
+																																																																														}
+																																																																													],
+																																																																													"attachments": [],
+																																																																													"parameters": [],
+																																																																													"start": 1722624104831,
+																																																																													"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																																													"stop": 1722624105815
+																																																																												}
+																																																																											],
+																																																																											"attachments": [],
+																																																																											"parameters": [],
+																																																																											"start": 1722624104825,
+																																																																											"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																																											"stop": 1722624105810
+																																																																										}
+																																																																									],
+																																																																									"attachments": [],
+																																																																									"parameters": [],
+																																																																									"start": 1722624104813,
+																																																																									"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																																									"stop": 1722624105758
+																																																																								}
+																																																																							],
+																																																																							"attachments": [],
+																																																																							"parameters": [],
+																																																																							"start": 1722624104809,
+																																																																							"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																																							"stop": 1722624105756
+																																																																						}
+																																																																					],
+																																																																					"attachments": [],
+																																																																					"parameters": [],
+																																																																					"start": 1722624104802,
+																																																																					"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																																					"stop": 1722624105746
+																																																																				}
+																																																																			],
+																																																																			"attachments": [],
+																																																																			"parameters": [],
+																																																																			"start": 1722624104797,
+																																																																			"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																																			"stop": 1722624105744
+																																																																		}
+																																																																	],
+																																																																	"attachments": [],
+																																																																	"parameters": [],
+																																																																	"start": 1722624104791,
+																																																																	"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																																	"stop": 1722624105740
+																																																																}
+																																																															],
+																																																															"attachments": [],
+																																																															"parameters": [],
+																																																															"start": 1722624104785,
+																																																															"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																															"stop": 1722624105733
+																																																														}
+																																																													],
+																																																													"attachments": [],
+																																																													"parameters": [],
+																																																													"start": 1722624104780,
+																																																													"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																													"stop": 1722624105724
+																																																												}
+																																																											],
+																																																											"attachments": [],
+																																																											"parameters": [],
+																																																											"start": 1722624104776,
+																																																											"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																											"stop": 1722624105722
+																																																										}
+																																																									],
+																																																									"attachments": [],
+																																																									"parameters": [],
+																																																									"start": 1722624104768,
+																																																									"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																									"stop": 1722624105719
+																																																								}
+																																																							],
+																																																							"attachments": [],
+																																																							"parameters": [],
+																																																							"start": 1722624104762,
+																																																							"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																							"stop": 1722624105713
+																																																						}
+																																																					],
+																																																					"attachments": [],
+																																																					"parameters": [],
+																																																					"start": 1722624104755,
+																																																					"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																					"stop": 1722624105706
+																																																				}
+																																																			],
+																																																			"attachments": [],
+																																																			"parameters": [],
+																																																			"start": 1722624104747,
+																																																			"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																			"stop": 1722624105696
+																																																		}
+																																																	],
+																																																	"attachments": [],
+																																																	"parameters": [],
+																																																	"start": 1722624104741,
+																																																	"name": "locator.innerText(.form-group:has(label:has-text('",
+																																																	"stop": 1722624105693
+																																																}
+																																															],
+																																															"attachments": [],
+																																															"parameters": [],
+																																															"start": 1722624104733,
+																																															"name": "locator.innerText(.form-group:has(label:has-text('",
+																																															"stop": 1722624105688
+																																														}
+																																													],
+																																													"attachments": [],
+																																													"parameters": [],
+																																													"start": 1722624104712,
+																																													"name": "locator.innerText(.form-group:has(label:has-text('",
+																																													"stop": 1722624105678
+																																												}
+																																											],
+																																											"attachments": [],
+																																											"parameters": [],
+																																											"start": 1722624104679,
+																																											"name": "locator.innerText(.form-group:has(label:has-text('",
+																																											"stop": 1722624105615
+																																										}
+																																									],
+																																									"attachments": [],
+																																									"parameters": [],
+																																									"start": 1722624104675,
+																																									"name": "locator.innerText(.form-group:has(label:has-text('",
+																																									"stop": 1722624105602
+																																								}
+																																							],
+																																							"attachments": [],
+																																							"parameters": [],
+																																							"start": 1722624104669,
+																																							"name": "locator.innerText(.form-group:has(label:has-text('",
+																																							"stop": 1722624105598
+																																						}
+																																					],
+																																					"attachments": [],
+																																					"parameters": [],
+																																					"start": 1722624104662,
+																																					"name": "locator.innerText(.form-group:has(label:has-text('",
+																																					"stop": 1722624105592
+																																				}
+																																			],
+																																			"attachments": [],
+																																			"parameters": [],
+																																			"start": 1722624104651,
+																																			"name": "locator.innerText(.form-group:has(label:has-text('",
+																																			"stop": 1722624105587
+																																		}
+																																	],
+																																	"attachments": [],
+																																	"parameters": [],
+																																	"start": 1722624104643,
+																																	"name": "locator.innerText(.form-group:has(label:has-text('",
+																																	"stop": 1722624105581
+																																}
+																															],
+																															"attachments": [],
+																															"parameters": [],
+																															"start": 1722624104637,
+																															"name": "locator.innerText(.form-group:has(label:has-text('",
+																															"stop": 1722624105579
+																														}
+																													],
+																													"attachments": [],
+																													"parameters": [],
+																													"start": 1722624104618,
+																													"name": "locator.innerText(.form-group:has(label:has-text('",
+																													"stop": 1722624105563
+																												}
+																											],
+																											"attachments": [],
+																											"parameters": [],
+																											"start": 1722624104608,
+																											"name": "locator.innerText(.form-group:has(label:has-text('",
+																											"stop": 1722624105558
+																										}
+																									],
+																									"attachments": [],
+																									"parameters": [],
+																									"start": 1722624104595,
+																									"name": "locator.innerText(.form-group:has(label:has-text('",
+																									"stop": 1722624105551
+																								}
+																							],
+																							"attachments": [],
+																							"parameters": [],
+																							"start": 1722624104588,
+																							"name": "locator.innerText(.form-group:has(label:has-text('",
+																							"stop": 1722624105546
+																						}
+																					],
+																					"attachments": [],
+																					"parameters": [],
+																					"start": 1722624104583,
+																					"name": "locator.innerText(.form-group:has(label:has-text('",
+																					"stop": 1722624105544
+																				}
+																			],
+																			"attachments": [],
+																			"parameters": [],
+																			"start": 1722624104578,
+																			"name": "locator.innerText(.form-group:has(label:has-text('",
+																			"stop": 1722624105541
+																		}
+																	],
+																	"attachments": [],
+																	"parameters": [],
+																	"start": 1722624104568,
+																	"name": "locator.innerText(.form-group:has(label:has-text('",
+																	"stop": 1722624105533
+																}
+															],
+															"attachments": [],
+															"parameters": [],
+															"start": 1722624104563,
+															"name": "locator.innerText(.form-group:has(label:has-text('",
+															"stop": 1722624105533
+														}
+													],
+													"attachments": [],
+													"parameters": [],
+													"start": 1722624104517,
+													"name": "locator.innerText(.form-group:has(label:has-text('",
+													"stop": 1722624105482
+												}
+											],
+											"attachments": [],
+											"parameters": [],
+											"start": 1722624104511,
+											"name": "locator.innerText(.form-group:has(label:has-text('",
+											"stop": 1722624105478
+										}
+									],
+									"attachments": [],
+									"parameters": [],
+									"start": 1722624104507,
+									"name": "locator.innerText(.form-group:has(label:has-text('",
+									"stop": 1722624105476
+								}
+							],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722624104498,
+							"name": "locator.innerText(.form-group:has(label:has-text('",
+							"stop": 1722624105467
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722624104493,
+					"name": "locator.innerText(.form-group:has(label:has-text('",
+					"stop": 1722624105464
+				}
+			],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624104487,
+			"name": "locator.innerText(.form-group:has(label:has-text('",
+			"stop": 1722624105051
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624106031,
+			"name": "locator.click(.form-group:has(label:has-text('Lang",
+			"stop": 1722624106143
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624106147,
+			"name": "locator.evaluate(.form-group:has(label:has-text('L",
+			"stop": 1722624106193
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722624106205,
+					"name": "locator.selectOption(.form-group:has(label:has-tex",
+					"stop": 1722624106262
+				}
+			],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624106197,
+			"name": "expect.toHaveCount",
+			"stop": 1722624106579
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624106591,
+			"name": "locator.click(span.select2-selection__arrow >> int",
+			"stop": 1722624107316
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624107320,
+			"name": "locator.fill(span.select2-dropdown input[type='sea",
+			"stop": 1722624107481
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624107486,
+			"name": "keyboard.press(Enter)",
+			"stop": 1722624107598
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624107601,
+			"name": "locator.selectOption(#yearbox)",
+			"stop": 1722624107718
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624107722,
+			"name": "locator.selectOption(.form-group:has(label:has-tex",
+			"stop": 1722624107900
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624107907,
+			"name": "locator.selectOption(#daybox)",
+			"stop": 1722624108100
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624108105,
+			"name": "locator.fill(#firstpassword)",
+			"stop": 1722624108535
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624108539,
+			"name": "locator.fill(#secondpassword)",
+			"stop": 1722624108781
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624108785,
+			"name": "locator.click(button:has-text('Submit'))",
+			"stop": 1722624108926
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722624108932,
+					"name": "page.screenshot",
+					"stop": 1722624109266
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722624109293,
+					"name": "fixture: registerPage",
+					"stop": 1722624109296
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722624109303,
+					"name": "fixture: page",
+					"stop": 1722624109304
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722624109304,
+					"name": "fixture: page",
+					"stop": 1722624109314
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722624109315,
+					"name": "fixture: context",
+					"stop": 1722624109316
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722624112278,
+					"name": "video.saveAs",
+					"stop": 1722624112281
+				},
+				{
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [
+						{
+							"name": "screenshot",
+							"source": "10c2ed37-9333-48b3-952f-0f5680b4bfba-attachment.png",
+							"type": "image/png"
+						}
+					],
+					"parameters": [],
+					"start": 1722624112869,
+					"name": "screenshot",
+					"stop": 1722624112869
+				},
+				{
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [
+						{
+							"name": "video",
+							"source": "c9c18280-fa96-480e-8b7f-819eac0c5c54-attachment.webm",
+							"type": "video/webm"
+						}
+					],
+					"parameters": [],
+					"start": 1722624112871,
+					"name": "video",
+					"stop": 1722624112871
+				}
+			],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722624108927,
+			"name": "After Hooks",
+			"stop": 1722624112285
+		},
+		{
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [
+				{
+					"name": "trace",
+					"source": "ca0287fd-3bc2-4ac3-9968-e77ed10bebc4-attachment.zip",
+					"type": "application/zip"
+				}
+			],
+			"parameters": [],
+			"start": 1722624112874,
+			"name": "trace",
+			"stop": 1722624112874
+		}
+	],
+	"attachments": [],
+	"parameters": [{ "name": "Project", "value": "chromium" }],
+	"labels": [
+		{ "name": "language", "value": "JavaScript" },
+		{ "name": "framework", "value": "Playwright" },
+		{
+			"name": "titlePath",
+			"value": " > chromium > register.spec.ts > Testes na Pagina de Registros"
+		},
+		{ "name": "package", "value": "register.spec.ts" },
+		{ "name": "host", "value": "DESKTOP-EG09TKL" },
+		{ "name": "thread", "value": "DESKTOP-EG09TKL-6784-playwright-worker-1" },
+		{ "name": "parentSuite", "value": "chromium" },
+		{ "name": "suite", "value": "register.spec.ts" },
+		{ "name": "subSuite", "value": "Testes na Pagina de Registros" }
+	],
+	"links": [],
+	"start": 1722624092079,
+	"testCaseId": "dbef73054e40b10c6aac2b9ff3adf962",
+	"fullName": "register.spec.ts:6:6",
+	"stop": 1722624109563
+}

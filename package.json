@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"scripts": {
 		"local:test": "npx playwright test --headed --project=chromium && npm run allure || npm run allure",
-		"test": "npx playwright test && npx allure serve allure-results || npx allure serve allure-results",
+		"test": "npx playwright test",
 		"bug:test": "npx playwright test --debug",
 		"allure": "npx allure serve allure-results",
 		"test:ui": "npx playwright test --ui",

@@ -1,1 +1,82 @@
-{"uid":"b1a8273437954620fa374b796ffaacdd","name":"behaviors","children":[{"name":"check if field are cleand after click on reflesh","uid":"7defc2e66df176d1","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1722543674532,"stop":1722543689832,"duration":15300},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":true,"parameters":["chromium"],"tags":[]},{"name":"Login com sucesso","uid":"ecda00a94233fc99","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1722624092072,"stop":1722624102893,"duration":10821},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":2,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]},{"name":"Realizo o  preenchimento do formulario com sucesso","uid":"50335f4d24de14c5","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1722624092079,"stop":1722624109563,"duration":17484},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":26,"retriesStatusChange":true,"parameters":["chromium"],"tags":[]},{"name":"check if the fields are cleaned after click on reflesh","uid":"509d4e99cb0bd41a","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1722624105947,"stop":1722624112474,"duration":6527},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]}]}
+{
+	"uid": "b1a8273437954620fa374b796ffaacdd",
+	"name": "behaviors",
+	"children": [
+		{
+			"name": "check if field are cleand after click on reflesh",
+			"uid": "7defc2e66df176d1",
+			"parentUid": "b1a8273437954620fa374b796ffaacdd",
+			"status": "passed",
+			"time": {
+				"start": 1722543674532,
+				"stop": 1722543689832,
+				"duration": 15300
+			},
+			"flaky": false,
+			"newFailed": false,
+			"newPassed": false,
+			"newBroken": false,
+			"retriesCount": 3,
+			"retriesStatusChange": true,
+			"parameters": ["chromium"],
+			"tags": []
+		},
+		{
+			"name": "Login com sucesso",
+			"uid": "ecda00a94233fc99",
+			"parentUid": "b1a8273437954620fa374b796ffaacdd",
+			"status": "passed",
+			"time": {
+				"start": 1722624092072,
+				"stop": 1722624102893,
+				"duration": 10821
+			},
+			"flaky": false,
+			"newFailed": false,
+			"newPassed": false,
+			"newBroken": false,
+			"retriesCount": 2,
+			"retriesStatusChange": false,
+			"parameters": ["chromium"],
+			"tags": []
+		},
+		{
+			"name": "Realizo o  preenchimento do formulario com sucesso",
+			"uid": "50335f4d24de14c5",
+			"parentUid": "b1a8273437954620fa374b796ffaacdd",
+			"status": "passed",
+			"time": {
+				"start": 1722624092079,
+				"stop": 1722624109563,
+				"duration": 17484
+			},
+			"flaky": false,
+			"newFailed": false,
+			"newPassed": false,
+			"newBroken": false,
+			"retriesCount": 26,
+			"retriesStatusChange": true,
+			"parameters": ["chromium"],
+			"tags": []
+		},
+		{
+			"name": "check if the fields are cleaned after click on reflesh",
+			"uid": "509d4e99cb0bd41a",
+			"parentUid": "b1a8273437954620fa374b796ffaacdd",
+			"status": "passed",
+			"time": {
+				"start": 1722624105947,
+				"stop": 1722624112474,
+				"duration": 6527
+			},
+			"flaky": false,
+			"newFailed": false,
+			"newPassed": false,
+			"newBroken": false,
+			"retriesCount": 1,
+			"retriesStatusChange": false,
+			"parameters": ["chromium"],
+			"tags": []
+		}
+	]
+}

@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Aug 02 20:55:03 GMT 2024","Fri Aug 02 20:55:06 GMT 2024","3538","chromium","register.spec.ts","Testes na Pagina de Registros","","","check if the fields are cleaned after click on reflesh",""
+"passed","Fri Aug 02 20:54:49 GMT 2024","Fri Aug 02 20:54:53 GMT 2024","4092","chromium","alerts.spec.ts","Handle alerts Tests","","","Open Alerts with sucess",""
+"passed","Thu Aug 01 20:21:14 GMT 2024","Thu Aug 01 20:21:29 GMT 2024","15300","chromium","register.spec.ts","Testes na Pagina de Registros","","","check if field are cleand after click on reflesh",""
+"failed","Fri Aug 02 20:35:33 GMT 2024","Fri Aug 02 20:35:40 GMT 2024","7371","chromium","alerts.spec.ts","Handle alerts Test","","","Open Alerts with sucess",""
+"passed","Fri Aug 02 20:54:53 GMT 2024","Fri Aug 02 20:54:57 GMT 2024","3259","chromium","home.spec.ts","Teste on Home page","","","Login com sucesso",""
+"passed","Fri Aug 02 20:54:57 GMT 2024","Fri Aug 02 20:55:02 GMT 2024","5753","chromium","register.spec.ts","Testes na Pagina de Registros","","","Realizo o  preenchimento do formulario com sucesso",""

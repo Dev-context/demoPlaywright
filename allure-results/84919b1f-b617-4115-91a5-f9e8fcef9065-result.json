@@ -1,1 +1,305 @@
-{"uuid":"84919b1f-b617-4115-91a5-f9e8fcef9065","name":"Login com sucesso","historyId":"2af2e89025b50e3195c7ba257dbaa064:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601168899,"name":"browserType.launch","stop":1722601172282}],"attachments":[],"parameters":[],"start":1722601168892,"name":"fixture: browser","stop":1722601172282},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601172289,"name":"browser.newContext","stop":1722601172317}],"attachments":[],"parameters":[],"start":1722601172285,"name":"fixture: context","stop":1722601172332},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601172339,"name":"browserContext.newPage","stop":1722601172856}],"attachments":[],"parameters":[],"start":1722601172334,"name":"fixture: page","stop":1722601172856},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601172861,"name":"page.goto(/)","stop":1722601177947}],"attachments":[],"parameters":[],"start":1722601172857,"name":"fixture: page","stop":1722601177947},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601177949,"name":"fixture: home","stop":1722601177950}],"attachments":[],"parameters":[],"start":1722601168881,"name":"Before Hooks","stop":1722601177951},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601177963,"name":"locator.fill(#email)","stop":1722601178039},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601178043,"name":"locator.click(span:has(a[href='Register.html']))","stop":1722601178899},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601178904,"name":"expect.toContain","stop":1722601178905},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601178915,"name":"page.screenshot","stop":1722601180837},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601180853,"name":"fixture: home","stop":1722601180854},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601180855,"name":"fixture: page","stop":1722601180855},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601180856,"name":"fixture: page","stop":1722601180857},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601180858,"name":"fixture: context","stop":1722601180859},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1722601181401,"name":"video.saveAs","stop":1722601181405},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"02f48336-a801-44a5-9c2b-6cc1c3a7b2cc-attachment.png","type":"image/png"}],"parameters":[],"start":1722601181575,"name":"screenshot","stop":1722601181575},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"2ec7b683-0af1-4085-b2c3-612cc41293c2-attachment.webm","type":"video/webm"}],"parameters":[],"start":1722601181579,"name":"video","stop":1722601181579}],"attachments":[],"parameters":[],"start":1722601178907,"name":"After Hooks","stop":1722601181410},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"trace","source":"89e5545b-cd1d-4eca-86f5-3b7d9624e1bd-attachment.zip","type":"application/zip"}],"parameters":[],"start":1722601181580,"name":"trace","stop":1722601181581}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"JavaScript"},{"name":"framework","value":"Playwright"},{"name":"titlePath","value":" > chromium > home.spec.ts > Teste on Home page"},{"name":"package","value":"home.spec.ts"},{"name":"host","value":"DESKTOP-EG09TKL"},{"name":"thread","value":"DESKTOP-EG09TKL-18908-playwright-worker-0"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"home.spec.ts"},{"name":"subSuite","value":"Teste on Home page"}],"links":[],"start":1722601168878,"testCaseId":"2af2e89025b50e3195c7ba257dbaa064","fullName":"home.spec.ts:4:7","stop":1722601177998}
+{
+	"uuid": "84919b1f-b617-4115-91a5-f9e8fcef9065",
+	"name": "Login com sucesso",
+	"historyId": "2af2e89025b50e3195c7ba257dbaa064:5bd835b0d6b1d4ada3b9f0db936e82c8",
+	"status": "passed",
+	"statusDetails": {},
+	"stage": "finished",
+	"steps": [
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722601168899,
+							"name": "browserType.launch",
+							"stop": 1722601172282
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722601168892,
+					"name": "fixture: browser",
+					"stop": 1722601172282
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722601172289,
+							"name": "browser.newContext",
+							"stop": 1722601172317
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722601172285,
+					"name": "fixture: context",
+					"stop": 1722601172332
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722601172339,
+							"name": "browserContext.newPage",
+							"stop": 1722601172856
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722601172334,
+					"name": "fixture: page",
+					"stop": 1722601172856
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [
+						{
+							"status": "passed",
+							"statusDetails": {},
+							"stage": "finished",
+							"steps": [],
+							"attachments": [],
+							"parameters": [],
+							"start": 1722601172861,
+							"name": "page.goto(/)",
+							"stop": 1722601177947
+						}
+					],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722601172857,
+					"name": "fixture: page",
+					"stop": 1722601177947
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722601177949,
+					"name": "fixture: home",
+					"stop": 1722601177950
+				}
+			],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722601168881,
+			"name": "Before Hooks",
+			"stop": 1722601177951
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722601177963,
+			"name": "locator.fill(#email)",
+			"stop": 1722601178039
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722601178043,
+			"name": "locator.click(span:has(a[href='Register.html']))",
+			"stop": 1722601178899
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722601178904,
+			"name": "expect.toContain",
+			"stop": 1722601178905
+		},
+		{
+			"status": "passed",
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722601178915,
+					"name": "page.screenshot",
+					"stop": 1722601180837
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722601180853,
+					"name": "fixture: home",
+					"stop": 1722601180854
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722601180855,
+					"name": "fixture: page",
+					"stop": 1722601180855
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722601180856,
+					"name": "fixture: page",
+					"stop": 1722601180857
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722601180858,
+					"name": "fixture: context",
+					"stop": 1722601180859
+				},
+				{
+					"status": "passed",
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [],
+					"parameters": [],
+					"start": 1722601181401,
+					"name": "video.saveAs",
+					"stop": 1722601181405
+				},
+				{
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [
+						{
+							"name": "screenshot",
+							"source": "02f48336-a801-44a5-9c2b-6cc1c3a7b2cc-attachment.png",
+							"type": "image/png"
+						}
+					],
+					"parameters": [],
+					"start": 1722601181575,
+					"name": "screenshot",
+					"stop": 1722601181575
+				},
+				{
+					"statusDetails": {},
+					"stage": "finished",
+					"steps": [],
+					"attachments": [
+						{
+							"name": "video",
+							"source": "2ec7b683-0af1-4085-b2c3-612cc41293c2-attachment.webm",
+							"type": "video/webm"
+						}
+					],
+					"parameters": [],
+					"start": 1722601181579,
+					"name": "video",
+					"stop": 1722601181579
+				}
+			],
+			"attachments": [],
+			"parameters": [],
+			"start": 1722601178907,
+			"name": "After Hooks",
+			"stop": 1722601181410
+		},
+		{
+			"statusDetails": {},
+			"stage": "finished",
+			"steps": [],
+			"attachments": [
+				{
+					"name": "trace",
+					"source": "89e5545b-cd1d-4eca-86f5-3b7d9624e1bd-attachment.zip",
+					"type": "application/zip"
+				}
+			],
+			"parameters": [],
+			"start": 1722601181580,
+			"name": "trace",
+			"stop": 1722601181581
+		}
+	],
+	"attachments": [],
+	"parameters": [{ "name": "Project", "value": "chromium" }],
+	"labels": [
+		{ "name": "language", "value": "JavaScript" },
+		{ "name": "framework", "value": "Playwright" },
+		{
+			"name": "titlePath",
+			"value": " > chromium > home.spec.ts > Teste on Home page"
+		},
+		{ "name": "package", "value": "home.spec.ts" },
+		{ "name": "host", "value": "DESKTOP-EG09TKL" },
+		{ "name": "thread", "value": "DESKTOP-EG09TKL-18908-playwright-worker-0" },
+		{ "name": "parentSuite", "value": "chromium" },
+		{ "name": "suite", "value": "home.spec.ts" },
+		{ "name": "subSuite", "value": "Teste on Home page" }
+	],
+	"links": [],
+	"start": 1722601168878,
+	"testCaseId": "2af2e89025b50e3195c7ba257dbaa064",
+	"fullName": "home.spec.ts:4:7",
+	"stop": 1722601177998
+}

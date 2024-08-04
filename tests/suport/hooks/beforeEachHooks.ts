@@ -1,7 +1,7 @@
-import { test } from "fixture/baseTest";
+import { test } from "fixture/baseTest"
 
 const afterEachHooks = test.afterEach(async ({ page }) => {
-  await page.close();
-});
+	await page.close()
+})
 
-export default afterEachHooks;
+export default afterEachHooks

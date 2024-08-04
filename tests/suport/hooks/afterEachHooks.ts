@@ -1,7 +1,7 @@
-import { test } from "fixture/baseTest";
+import { test } from "fixture/baseTest"
 
 const beforeEachHooks = test.beforeEach(async ({ home }) => {
-  await home.signUp("test@test.com");
-});
+	await home.signUp("test@test.com")
+})
 
-export default beforeEachHooks;
+export default beforeEachHooks

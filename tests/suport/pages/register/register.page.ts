@@ -1,7 +1,7 @@
 import Baseclass from "fixture/baseclass"
 import elements from "@pages/register/elements.json"
 import { Actions } from "../../comands/actions"
-import { register } from "@pages/routes/routes.json"
+import { register } from "fixture/routes/routes.json"
 import type { Register as RegisterType } from "fixture/data/register.model"
 
 export default class Register extends Baseclass {

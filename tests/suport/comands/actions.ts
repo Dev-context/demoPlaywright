@@ -1,4 +1,4 @@
-import type { Locator } from "@playwright/test"
+import type { BrowserContext, Locator } from "@playwright/test"
 
 interface ActionsFill {
 	locator: Locator
@@ -39,5 +39,10 @@ export namespace Actions {
 
 	export async function select(locator: Locator, option: string) {
 		await locator.selectOption(option)
+	}
+
+	export async function windownsHandle(context: BrowserContext) {
+		const [newWindow] = await Promise.all([context.waitForEvent("page")])
+		return newWindow
 	}
 }

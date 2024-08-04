@@ -1,0 +1,8 @@
+{
+  "open_new_tab_window":"a:text-is('Open New Tabbed Windows')",
+  "open_separete_window":"a:text-is('Open New Seperate Windows')",
+  "open_multiple_window":"a:text-is('Open Seperate Multiple Windows')",
+  "click_Open_new_tab":"a[href*='selenium'] button",
+  "click_OpenSeparete":"#Seperate button",
+  "click_Open_Multiple":"#Multiple button"
+}
